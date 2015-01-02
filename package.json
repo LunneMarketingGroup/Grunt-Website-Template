@@ -1,0 +1,39 @@
+{
+	"name": "grunt-website-template",
+	"version": "0.1.0",
+	"description": "Grunt plugin that interpolates template files with any data you provide and saves the result to another file.",
+	"author": {
+		"name": "Bill Condo",
+		"url": "http://lmgresults.com/"
+	},
+	"homepage": "https://github.com/LunneMarketingGroup/Grunt-Website-Template",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/LunneMarketingGroup/Grunt-Website-Template.git"
+	},
+	"bugs": "https://github.com/LunneMarketingGroup/Grunt-Website-Template/issues",
+	"files": [
+		"LICENSE-MIT.txt"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "~0.4",
+		"grunt-contrib-clean": "~0.6",
+		"grunt-contrib-nodeunit": "~0.4",
+
+        "grunt-trimtrailingspaces": "~0.4",
+        "grunt-imageoptim": "~1.4",
+        "grunt-contrib-cssmin": "~0.11",
+        "grunt-contrib-uglify": "~0.7",
+        "grunt-contrib-compass": "~1.0",
+        "grunt-autoprefixer": "~2.1"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.0"
+	},
+	"keywords": [
+		"gruntplugin",
+		"template"
+	]
+}
